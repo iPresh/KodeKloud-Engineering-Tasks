@@ -11,7 +11,7 @@ Disable remote login on the server by editing the /etc/ssh/sshd_config file:
 
 For the changes to take effect, restart sshd service:
 ```
-systemctl restart ssh
+systemctl restart sshd
 ```
 
 Repeat on app servers 2 and 3.
