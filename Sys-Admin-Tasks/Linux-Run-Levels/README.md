@@ -1,19 +1,3 @@
-SSH into the app server and switch to root user:  
-```
-ssh tony@stapp01
-sudo su - 
-```
+New tools have been installed on the app server in Stratos Datacenter. Some of these tools can only be managed from the graphical user interface. Therefore, there are requirements for these app servers.
 
-Find the current default linux run level:  
-```
-systemctl get-default
-```
-
-Change from multi-user to graphical target:  
-```
-systemctl set-default graphical.target
-```
-
-Repeat on other app servers.
-
-![image](/images/gui.PNG)
+On all App servers in Stratos Datacenter change the default runlevel so that they can boot in GUI (graphical user interface) by default. Please do not try to reboot these servers
