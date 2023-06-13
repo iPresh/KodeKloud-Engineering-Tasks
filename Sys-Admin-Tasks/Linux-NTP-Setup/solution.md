@@ -11,7 +11,7 @@ Install ntp on app server:
 yum install -y ntp
 ``` 
 
-Edit the ntp config file:  
+Edit the ntp configuration file:  
 `` vi /etc/ntp.conf ``    
 ```
 server 1.sg.pool.ntp.org 
