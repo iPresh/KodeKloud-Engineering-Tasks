@@ -6,7 +6,7 @@ ssh steve@stapp02
 sudo su -
 ```
 
-Install ntp on app server:
+Install ntp on app server 2:
 ```
 yum install -y ntp
 ``` 
